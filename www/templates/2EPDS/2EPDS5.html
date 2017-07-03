@@ -1,0 +1,24 @@
+<ion-view name=eat>
+<ion-content>
+    <div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:15%;"><p class="transparentText">t </p></div></div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+ 
+     <h3 class="questionText">Je me suis sentie effrayée ou paniquée sans vraiment de raisons </h3>
+	<ion-list>
+	  <ion-checkbox ng-click="moreLess()">
+	  Oui, vraiment souvent
+	  </ion-checkbox>
+	      <ion-checkbox ng-click="less()">
+	  	Oui, parfois
+	  </ion-checkbox>
+  	  	  <ion-checkbox ng-click="usual()">
+	  	Oui, parfois, Pas très souvent
+	  </ion-checkbox>
+ 	   <ion-checkbox ng-click="besser()">
+  	  Non, pas du tout
+  	  </ion-checkbox>	
+	</ion-list>
+   </ion-content>
+</ion-view>

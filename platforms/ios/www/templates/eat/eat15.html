@@ -1,0 +1,29 @@
+<ion-view name=eat>
+<ion-content>
+    <div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:50%;"><p class="transparentText">t </p></div></div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+ 
+     <h3 class="questionText">  Je prends plus de temps que les autres à prendre mes repas.  </h3>
+	<ion-list>
+	  <ion-checkbox ng-click="always()">	Toujours
+	  </ion-checkbox>
+	  <ion-checkbox ng-click="usually()">
+	  	Habituellement
+	  </ion-checkbox>
+	  <ion-checkbox ng-click="often()">
+	  	Souvent
+	  </ion-checkbox>
+	  <ion-checkbox ng-click="sometimes()">
+	  	Parfois
+	  </ion-checkbox>
+  	  <ion-checkbox ng-click="rarely()">
+  	  	Rarement
+  	  </ion-checkbox>
+  	   <ion-checkbox ng-click="never()">
+  	  	Jamais
+  	  </ion-checkbox>
+	</ion-list>
+   </ion-content>
+</ion-view>

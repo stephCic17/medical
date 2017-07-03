@@ -1,0 +1,24 @@
+<ion-view name=eat>
+<ion-content>
+    <div class="progressingDiv">
+    <div class="progressingInsideDiv" style="width:3%;"><p class="transparentText">t </p></div></div>
+  </ion-content> 
+  <ion-content class="containQuestion">
+ 
+     <h3 class="questionText"> Coucou J’ai pu rire et prendre les choses du bon côté  </h3>
+	<ion-list>
+ 	   <ion-checkbox ng-click="besser()">
+  	  	Aussi souvent que d’habitude
+  	  </ion-checkbox>
+  	  	  <ion-checkbox ng-click="usual()">
+	  	Pas tout à fait autant
+	  </ion-checkbox>
+	    <ion-checkbox ng-click="less()">
+	  	Vraiment beaucoup moins souvent ces jours-ci
+	  </ion-checkbox>
+	  <ion-checkbox ng-click="moreLess()">
+	  Absolument pas
+	  </ion-checkbox>
+	</ion-list>
+   </ion-content>
+</ion-view>
